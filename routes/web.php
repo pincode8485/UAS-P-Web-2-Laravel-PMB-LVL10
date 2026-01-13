@@ -9,7 +9,7 @@ use App\Models\Pendaftar; // <--- CRITICAL IMPORT
 
 // --- PUBLIC PAGE ---
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing');
 });
 
 // --- LOGIN REDIRECT ---
